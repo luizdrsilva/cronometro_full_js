@@ -1,0 +1,87 @@
+:root{
+    /* Colors */
+    --background-container: #f1f1f1;
+    --font-h1: #175cff; /*Usar no back do btn start*/
+    --timer: #333;
+    --time-number: #172953;
+    --separator: #525763; /* para milisseconds tambem*/
+    --btn: #CCC;
+    --white: #fff;
+
+    /* Fonts */
+    --orbitron: "Orbitron", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--orbitron);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 40px;
+    background-color: var(--background-container);
+    height: 100vh;
+}
+
+.container h1{
+    color: var(--font-h1);
+}
+
+.timer{
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--timer);
+    font-weight: bold;
+    min-width: 90px;
+}
+
+.time{
+    display: flex;
+    margin-right: 10px;
+    color: var(--time-number);
+}
+
+.separator{
+    display: flex;
+    padding: 0 10px;
+    color: var(--separator);
+}
+
+#milliseconds{
+    font-size: 30px;
+    color: var(--separator);
+}
+
+.buttons{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px solid var(--btn);
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#startBtn{
+    background-color: var(--font-h1);
+    color: var(--white);
+}
+
+#pauseBtn, #resumeBtn{
+    display: none;
+}
