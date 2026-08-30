@@ -12,7 +12,7 @@ Este projeto faz parte dos meus estudos de JavaScript e foi desenvolvido para pr
 
 🌐 Projeto online
 
-🔗 <a href="https://cronometro-full-js.vercel.app/">Acessar o Cronometro_JS</a>
+🔗 <a href="https://cronometro-full-js.vercel.app/" target="_blank">Acessar o Cronometro_JS</a>
 
 🚀 Funcionalidades
 
